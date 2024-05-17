@@ -34,6 +34,11 @@ se (n3,n4>n1,n2) entao
    escreval("Aluno evoliu")
 fimse
 
-
-
+ se (med <= 5) entao
+     escreval("Aluno reprovado")
+ senao
+    se(med > 6) entao
+       escreval("Aluno aprovado")
+     fimse
+  fimse
 Fimalgoritmo
